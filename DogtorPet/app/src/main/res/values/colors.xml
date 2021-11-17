@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#CCFFFF</color>
+    <color name="primaryLightColor">#E8FDFD</color><!--Color del encabezado-->
+    <color name="primaryDarkColor">#93C6C6</color> <!--Color del barra herramientas celular-->
+    <color name="secondaryColor">#F9C5C5</color>
+    <color name="secondaryLightColor">#FBDCDC</color>
+    <color name="SecondaryDarkColor">#957676</color>
+    <color name="primaryTextColor">#797A7C</color>
+</resources>
