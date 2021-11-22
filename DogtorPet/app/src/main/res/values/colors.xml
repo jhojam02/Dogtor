@@ -7,6 +7,7 @@
     <color name="secondaryLightColor">#FBDCDC</color>
     <color name="secondaryDarkColor">#957676</color>
     <color name="primaryTextColor">#797A7C</color>
+    <color name="logoBg">#ABF4D3</color>
 
 </resources>
 
