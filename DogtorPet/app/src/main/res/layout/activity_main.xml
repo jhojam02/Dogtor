@@ -50,12 +50,12 @@
             <ImageButton
                 android:id="@+id/imageButton3"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="112dp"
                 android:background="@drawable/circular_button"
                 app:layout_anchor="@+id/bottomappbar"
                 app:layout_anchorGravity="top|center"
                 app:srcCompat="@drawable/ic_logo_nav_bar"
-                />
+                 />
 
 
 
