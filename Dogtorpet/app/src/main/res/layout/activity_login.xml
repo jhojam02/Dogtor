@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/design_default_color_on_primary">
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="70dp"
+        app:srcCompat="@drawable/Cuadro"
+        android:padding="24dp"
+        />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -12,11 +21,13 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="32dp"
         android:layout_marginRight="32dp"
+        android:background="@drawable/cuadro"
         android:ems="10"
         android:hint="Email"
         android:inputType="textPersonName"
         android:padding="15dp"
-        android:translationY="198dp"
+        android:textColor="#0000004F"
+        android:translationY="270dp"
         android:visibility="visible" />
 
     <EditText
@@ -25,31 +36,34 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="32dp"
         android:layout_marginRight="32dp"
+        android:background="@drawable/cuadro"
         android:ems="10"
         android:hint="Contraseña"
         android:inputType="textPassword"
         android:outlineAmbientShadowColor="#C4C4C44D"
-        android:translationY="250dp" />
+        android:padding="15dp"
+        android:textColor="#0000004F"
+        android:translationY="330dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="36dp"
+        android:layout_marginLeft="56dp"
         android:layout_marginRight="155dp"
         android:background="@drawable/buttonrounded"
         android:text="Entrar"
-        android:translationY="370dp" />
+        android:translationY="420dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="225dp"
+        android:layout_marginLeft="254dp"
         android:layout_marginRight="1dp"
         android:background="@drawable/button_rounder_registro"
-        android:text="Registrarse"
-        android:translationY="370dp" />
+        android:text="Registrar"
+        android:translationY="420dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -57,20 +71,19 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="33dp"
         android:text="Reestablecer contraseña"
-        android:translationY="300dp" />
+        android:translationY="390dp" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="INICIAR SESION"
-        android:translationY="150dp"
-        android:layout_marginRight="105dp"
         android:layout_marginLeft="105dp"
+        android:layout_marginRight="105dp"
         android:gravity="center"
-
+        android:text="INICIAR SESION"
+        android:textColor="#2AE2E2"
         android:textSize="25dp"
-        android:textColor="#2AE2E2"/>
+        android:translationY="210dp" />
 
 
 
