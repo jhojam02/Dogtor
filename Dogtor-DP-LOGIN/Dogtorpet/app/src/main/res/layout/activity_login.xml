@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_on_primary">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="-45dp"
+        app:srcCompat="@drawable/fondo2" />
+
+    <SearchView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:translationY="60dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="64dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="330dp"
+        android:text="Hámsters"
+        android:background="@drawable/botonlogin"
+        android:textSize="8sp"
+        android:translationY="100dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="64dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="250dp"
+        android:background="@drawable/botonlogin"
+        android:text="Juguetes"
+        android:textSize="8sp"
+
+        android:translationY="100dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="64dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="170dp"
+        android:background="@drawable/botonlogin"
+        android:text="Gatos"
+        android:textSize="8sp"
+
+        android:translationY="100dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="64dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/botonlogin"
+        android:text="Perros"
+        android:textSize="8sp"
+
+        android:translationY="100dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="85dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="2dp"
+        android:text="Favoritos"
+        android:textSize="8sp"
+        android:background="@drawable/botonlogin"
+        android:translationY="100dp" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:translationY="198dp"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:translationY="198dp"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:outlineAmbientShadowColor="#C4C4C44D"
+        android:translationY="250dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="155dp"
+        android:background="@drawable/buttonrounded"
+        android:text="Entrar"
+        android:translationY="370dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="225dp"
+        android:layout_marginRight="1dp"
+        android:background="@drawable/button_rounder_registro"
+        android:text="Registrarse"
+        android:translationY="370dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="33dp"
+        android:text="Reestablecer contraseña"
+        android:translationY="300dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="105dp"
+        android:layout_marginRight="105dp"
+        android:gravity="center"
+        android:text="INICIAR SESION"
+        android:textColor="#2AE2E2"
+
+        android:textSize="25sp"
+        android:translationY="150dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:text="¿Ya tienes una cuenta?"
+        android:textSize="25sp"
+        android:translationY="30dp" />
+
+
+</RelativeLayout>
